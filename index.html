@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/main.css">
 
@@ -23,11 +23,11 @@
 <body>
 
     <!-- Navbar section -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+        <div class="container header-sticky">
             <a class="navbar-brand" href="index.html">Saurabh_Joshi</a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
-                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded=""
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
             </button>
@@ -38,6 +38,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Me</a>
                     </li>
 
                 </ul>
@@ -62,7 +65,6 @@
                         <a class="social-icon" data-tooltip="GitHub" href="https://github.com/Mega-Barrel"
                             target="_blank">
                             <i class="fa fa-github fa-2x"></i>
-
                         </a>
 
                         <a class="social-icon" data-tooltip="Instagram" href="#" target="_blank">
@@ -72,15 +74,13 @@
                         <a class="social-icon" data-tooltip="Twitter" href="#" target="_blank">
                             <i class="fa fa-twitter fa-2x" style="text-indent : 0.5em;"></i>
                         </a>
-
-                        <a class="social-icon" href="https://dev.to/megabarrel" target="_blank">
-                            <i class="fab fa-2x fa-dev" style="text-indent: 0.5em;"></i>
-                        </a>
-
+                        
                         <br>
                         <br>
 
                         <button class="btn btn-lg btn-outline-secondary">Resume</button>
+                        <br>
+                        <br><br>
                     </div>
                 </div>
             </div>
@@ -173,8 +173,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Python quiz game</h5>
-                        <p class="card-text">A simple python command line quiz game to test your knowledge😆. Get your
-                            knowledge testing and start playing the game.</p>
+                        <p class="card-text">A simple python command line quiz game to test your knowledge😆.
+                            Get your knowledge testing and start playing the game.</p>
                         <a href="https://github.com/Mega-Barrel/Quiz-Game" target="_blank" class="fa fa-github"
                             aria-hidden="true"> GitHub
                             Link</a>
@@ -190,47 +190,6 @@
             </div>
         </div>
     </section>
-
-
-    <!-- Contact Form -->
-    <div class="container contact-form">
-
-        <form method="post" autocomplete="off" name="google-sheet" id="form">
-
-            <h3>Drop Me a Message</h3>
-            <div class="row">
-
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <input type="text" name="Name" id="Name" class="form-control" placeholder="Your Name" value=""
-                            required />
-                    </div>
-
-                    <div class="form-group">
-                        <input type="text" name="Subject" id="Subject" class="form-control" placeholder="Subject"
-                            value="" required />
-                    </div>
-
-                    <div class="form-group">
-                        <input type="text" name="Email" id="Email" class="form-control" placeholder="Your Email"
-                            value="" required />
-                    </div>
-
-                    <div class="form-group">
-                        <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" onclick="fun()" />
-
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <textarea name="Message" id="Message" class="form-control" placeholder="Your Message"
-                            style="width: 100%; height: 150px;"></textarea>
-                    </div>
-                </div>
-            </div>
-        </form>
-    </div>
 
 
     <!-- Footer -->
@@ -254,43 +213,23 @@
 
         </div>
 
-        <div class="row mb-3">
-            <div class="col-lg-8 offset-lg-2  text-center">
-
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="About.html">About me</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="copyright text-center py-3 border-top text-muted">
-            <p class="pcol">Made with 💓 By Saurabh Joshi &copy;2020</p>
-        </div>
+        <p class="pcol">Made with 💓 By Saurabh Joshi &copy;2020</p>
     </footer>
 
 
 
-    <!-- Javascript -->
-
-    <script src="JS/index.js"></script>
-
-
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
 
 </body>
 
