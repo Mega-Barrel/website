@@ -83,9 +83,16 @@ h6 {
    ========================
 */
 .navbar {
-  background: #fff;
-  border-bottom: 1px solid #eee;
+  position: fixed;
+  height: 80px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  width: 100%;
+  overflow: visible;
 }
+
 
 .nav-link,
 .navbar-brand {
@@ -140,28 +147,6 @@ h6 {
   vertical-align: middle;
   display: inline-block;
 }
-
-
-/* ========================
-          Footer
-   ========================
-*/
-.footer {
-  background-color: #73A8C2;
-  color: #fafaff;
-
-  margin-top: auto;
-}
-
-.pcol {
-  color: black;
-}
-
-.footer a {
-  color: #0e0e0e;
-}
-
-
 
 /* ========================
         About Me Page
@@ -223,7 +208,7 @@ h6 {
 
 .contact-form {
   background: #fff;
-  margin-top: 0.5rem;
+  margin-top: 6rem;
   margin-bottom: 5%;
   width: 70%;
 }
@@ -280,6 +265,7 @@ h6 {
   margin: 5em;
   text-justify: auto;
   overflow-x: hidden;
+  overflow-y: hidden;
 
 }
 
@@ -293,6 +279,25 @@ h6 {
 }
 
 
+/* ========================
+          Footer
+   ========================
+*/
+.footer {
+  background-color: #73A8C2;
+  color: #fafaff;
+  margin-top: auto;
+}
+
+.pcol {
+  color: black;
+  text-align: center;
+}
+
+.footer a {
+  color: #0e0e0e;
+}
+
 
 /* ========================
         Responsive
@@ -304,12 +309,17 @@ h6 {
     overflow-x: hidden;
   }
 
-  .navbar .nav-item {
-    display: block;
+  .navbar {
     width: 100%;
     padding: 10px 1px;
     text-align: center;
-    position: sticky !important;
+    position: fixed;
+    height: 80px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    width: 100%;
   }
 
   .about {
