@@ -84,19 +84,21 @@ h6 {
 */
 .navbar {
   position: fixed;
-  height: 80px;
+  height: 100px;
   top: 0;
   display: flex;
   align-items: center;
-  background: #f1f1f1;
   width: 100%;
   overflow: visible;
+  background: #fff;
+  border-bottom: 1px solid #eee;
 }
 
 
 .nav-link,
 .navbar-brand {
   color: #011627;
+  font-size: 1.2rem;
 }
 
 .nav-link:hover,
@@ -133,7 +135,6 @@ h6 {
   text-align: center;
 }
 
-
 .action {
   padding: 2rem;
 }
@@ -154,7 +155,7 @@ h6 {
 */
 
 .about {
-  margin: 6em;
+  margin: 7em;
 }
 
 .size {
@@ -208,8 +209,8 @@ h6 {
 
 .contact-form {
   background: #fff;
-  margin-top: 6rem;
-  margin-bottom: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
   width: 70%;
 }
 
@@ -309,17 +310,23 @@ h6 {
     overflow-x: hidden;
   }
 
+  .contact-form {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
   .navbar {
+    height: 70px;
+    width: 100%;
+    font-size: 1.6rem;
+  }
+
+  .nav-item {
+    display: block;
     width: 100%;
     padding: 10px 1px;
     text-align: center;
-    position: fixed;
-    height: 80px;
-    top: 0;
-    display: flex;
-    align-items: center;
-    background: #f1f1f1;
-    width: 100%;
+    position: sticky !important;
   }
 
   .about {
