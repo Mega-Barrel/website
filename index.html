@@ -1,281 +1,257 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Saurabh Joshi</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- ===== Bootstrap ===== -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+                integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 
-    <link rel="stylesheet" href="css/main.css">
+    <!-- =====BOX ICONS===== -->
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/media.css">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
-
+    <title>Portfolio Website </title>
 </head>
 
 <body>
-
-    <!-- Navbar section -->
-    <nav class="navbar navbar-expand-sm fixed-top">
-        <div class="container header-sticky">
-            <a class="navbar-brand" href="index.html">Saurabh_Joshi</a>
-        </div>
-    </nav>
-
-
-    <!-- Home Section -->
-    <section class="home container mb-4">
-        <div class="row nt-5">
-            <div class="col-lg-6 mt-5 py-5 pl-5">
-                <img class="img-fluid" alt="" src="/images/saurabh.jpg">
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Saurabh</a>
             </div>
-            <div class="col-lg-6 my-auto">
-                <div class="row">
-                    <div class="home-content offset-lg-1 col-lg-10 overflow-hidden">
-                        <h1 class="pb-3 text">
-                            Hello I'm Saurabh Joshi a Programmer from India.
-                        </h1>
 
-                        <a class="social-icon" data-tooltip="GitHub" href="https://github.com/Mega-Barrel"
-                            target="_blank">
-                            <i class="fa fa-github fa-2x"></i>
-                        </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
 
-                        <a class="social-icon" data-tooltip="Instagram" href="#" target="_blank">
-                            <i class="fa fa-instagram fa-2x" style="text-indent : 0.5em;"></i>
-                        </a>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
 
-                        <a class="social-icon" data-tooltip="Twitter" href="#" target="_blank">
-                            <i class="fa fa-twitter fa-2x" style="text-indent : 0.5em;"></i>
-                        </a>
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Saurabh</span></h1>
 
-                        <br>
-                        <br>
+                <a href="#" class="button">Contact</a>
+            </div>
 
-                        <a href="#" target="_blank">
-                            <button class="btn btn-lg btn-outline-primary">Resume</button>
-                        </a> <br>
-                        <br><br>
-                    </div>
+            <div class="home__social">
+                <a href="#" class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
+                <a href="#" class="home__social-icon"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="home__social-icon"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="home__social-icon"><i class="bx bxl-github"></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="assets/img/perfil.png" alt="">
+            </div>
+        </section>
+
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.jpg" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I"am Saurabh</h2>
+                    <p class="about__text">Hi there 😃, I am Saurabh Joshi, an engineering student and an aspiring data
+                        analyst. I love playing outdoor games 🏸 , I"m a music 🎵 lover as well as an
+                        gamer 🎮 .</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Development</h3>
+                    <span class="skills__name">Python</span>
+                    <span class="skills__name">Html</span>
+                    <span class="skills__name">Css</span>
+
+                    <h3 class="skills__subtitle">Data Analytic</h3>
+                    <span class="skills__name">Numpy</span>
+                    <span class="skills__name">Pandas</span>
+                    <span class="skills__name">Matplotlib</span>
+                    <span class="skills__name">Seaborn</span>
+                    <span class="skills__name">Tableau</span>
+                    <span class="skills__name">Machine Learning(Begineer😁)</span>
 
 
-    <!-- Call to action -->
-    <section class="call-to-action py-2 mb-5">
-        <div class="container text-center w-50">
-            <h2 class="py-3">
-                About Me
-            </h2>
-            <p class="py-3">
-                Hello everyone, I am Saurabh Joshi an engineering student and an aspiring
-                data analyst.
-                I am currently pursuing BE in information technology.
-                I have knowledge in areas such as python, sql and have an
-                efficiency in version control such as GitHub.
-            </p>
+                    <h3 class="skills__subtitle">Databases & Tools</h3>
+                    <span class="skills__name">MySQL</span>
+                    <span class="skills__name">SQLite</span>
+                    <span class="skills__name">MySQL Workbench</span>
 
+                    <h3 class="skills__subtitle">Version Control</h3>
+                    <span class="skills__name">Git</span>
+                </div>
 
-        </div>
-    </section>
-
-    <section class="call-to-action py-2 mb-4">
-        <div class="container text-center w-50">
-            <h2 class="py-1">
-                Skills
-            </h2>
-
-            <div class="progress mb-2">
-
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 50%" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100">Python</div>
-
+                <div class="skills__img">
+                    <img src="assets/img/skill.jpg" alt="">
+                </div>
             </div>
-            <br>
+        </section>
 
-            <div class="progress mb-2">
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Projects</h2>
 
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 70%" aria-valuenow="75" aria-valuemin="10" aria-valuemax="100">SQL</div>
-            </div>
-            <br>
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <a href="https://github.com/Mega-Barrel" target="_blank">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </a>
 
-            <div class="progress mb-2">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 75%" aria-valuenow="50" aria-valuemin="10" aria-valuemax="100">Git</div>
-            </div>
-            <br>
-
-
-            <div class="progress mb-2">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 100%" aria-valuenow="80" aria-valuemin="10" aria-valuemax="100">HTML</div>
-            </div>
-            <br>
-
-            <div class="progress mb-2">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 30%" aria-valuenow="50" aria-valuemin="10" aria-valuemax="100">Tableau</div>
-            </div>
-            <br>
-
-            <div class="progress mb-2">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 50%" aria-valuenow="50" aria-valuemin="10" aria-valuemax="100">CSS</div>
-            </div>
-            <br>
-
-            <div class="progress mb-2">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 40%" aria-valuenow="50" aria-valuemin="10" aria-valuemax="100">JavaScript</div>
-            </div>
-            <br>
-
-            <div class="progress mb-2">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 40%" aria-valuenow="50" aria-valuemin="10" aria-valuemax="100">Data Analytics</div>
-            </div>
-
-        </div>
-
-    </section> <!-- Skills Section end -->
-
-
-
-    <!-- Projects section Displaying 4 cards and Learn more -->
-    <section class="action py-3">
-        <div class="container text-center pro">
-            <h2 class="py-3">
-                Projects
-            </h2>
-
-        </div>
-
-
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">Speed Detection using OpenCV</h5>
-                        <p class="card-text">OpenCv Project that will capture vehicals overspeeding and store
-                            information.</p>
-                        <a href="https://github.com/Mega-Barrel/Speed-Detection-Using-OpenCV" target="_blank"
-                            class="fa fa-github" aria-hidden="true"> GitHub
-                            Link</a>
+                        <!-- Title -->
+                        <h4 class="card-title">Card title</h4>
+                        <!-- Text -->
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
                     </div>
                 </div>
-                <br>
-            </div>
 
 
-            <div class="col-sm-6">
-                <div class="card">
+                <div class="work__img">
+                    <a href="https://github.com/Mega-Barrel" target="_blank">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </a>
                     <div class="card-body">
-                        <h5 class="card-title">RPG Game Python</h5>
-                        <p class="card-text">An RPG battle between Player and Computer. Both having special power that
-                            they can use against their opponent.</p>
-                        <a href="https://github.com/Mega-Barrel/RPG_Game_python" target="_blank" class="fa fa-github"
-                            aria-hidden="true"> GitHub
-                            Link</a>
+                        <!-- Title -->
+                        <h4 class="card-title">Card title</h4>
+                        <!-- Text -->
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
                     </div>
                 </div>
-                <br>
-            </div>
 
-
-            <div class="col-sm-6">
-                <div class="card">
+                <div class="work__img">
+                    <a href="https://github.com/Mega-Barrel" target="_blank">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </a>
                     <div class="card-body">
-                        <h5 class="card-title">Web Scrapper</h5>
-                        <p class="card-text">Python Image and text web-scraping made with beautiful Soup. For image
-                            scraping it will create the directory to store the image.</p>
-
-                        <a href="https://github.com/Mega-Barrel/Web-scraping" target="_blank" class="fa fa-github"
-                            aria-hidden="true"> GitHub
-                            Link</a>
+                        <!-- Title -->
+                        <h4 class="card-title">Card title</h4>
+                        <!-- Text -->
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
                     </div>
                 </div>
-                <br>
-            </div>
 
-
-            <br>
-            <div class="col-sm-6">
-                <div class="card">
+                <div class="work__img">
+                    <a href="https://github.com/Mega-Barrel" target="_blank">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </a>
                     <div class="card-body">
-                        <h5 class="card-title">Python quiz game</h5>
-                        <p class="card-text">A simple python command line quiz game to test your knowledge😆.
-                            Get your knowledge testing and start playing the game.</p>
-                        <a href="https://github.com/Mega-Barrel/Quiz-Game" target="_blank" class="fa fa-github"
-                            aria-hidden="true"> GitHub
-                            Link</a>
+
+                        <!-- Title -->
+                        <h4 class="card-title">Card title</h4>  
+                        <!-- Text -->
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+
+                <div class="work__img">
+                    <a href="https://github.com/Mega-Barrel" target="_blank">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </a>
+                    <div class="card-body">
+
+                        <!-- Title -->
+                        <h4 class="card-title">Card title</h4>
+                        <!-- Text -->
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                </div>
+
+                <div class="work__img">
+                    <a href="https://github.com/Mega-Barrel" target="_blank">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </a>
+                    <div class="card-body">
+
+                        <!-- Title -->
+                        <h4 class="card-title">Card title</h4>
+                        <!-- Text -->
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        
 
-        <div class="py-4">
-            <div class="container read-more-container text-center w-50">
-                <a href="https://github.com/Mega-Barrel?tab=repositories" target="_blank">
-                    <button class="btn btn-lg btn-outline-primary">More Project</button>
-                </a>
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
 
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">EMAIL</h3>
+                    <span class="contact__text">saurabhjoshi24business@gmail.com</span>
 
+                    <h3 class="contact__subtitle">ADDRESS</h3>
+                    <span class="contact__text">Mumbai, Maharashtra, India</span>
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Your Email" class="contact__input">
+                    </div>
+
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                    <input type="submit" value="Submit" class="contact__button">
+                </form>
             </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Saurabh Joshi</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class="bx bxl-linkedin"></i></a>
+            <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="footer__icon"><i class="bx bxl-github"></i></a>
         </div>
-    </section>
-
-
-    <!-- Footer -->
-    <footer class="footer mt-4">
-        <div class="text-center py-4">
-            <h2 class="py-2">Saurabh_Joshi</h2>
-
-            <a class="social-icon" data-tooltip="GitHub" href="https://github.com/Mega-Barrel" target="_blank">
-                <i class="fa fa-github fa-2x"></i>
-
-            </a>
-
-            <a class="social-icon" data-tooltip="Instagram" href="#" target="_blank">
-                <i class="fa fa-instagram fa-2x" style="text-indent : 0.5em;"></i>
-            </a>
-
-            <a class="social-icon" data-tooltip="Twitter" href="#" target="_blank">
-                <i class="fa fa-twitter fa-2x" style="text-indent : 0.5em;"></i>
-            </a>
-
-        </div>
-
-        <p class="pcol">Made with 💓 By Saurabh Joshi &copy;2020</p>
+        <p>&#169; 2020 copyright all right reserved</p>
     </footer>
 
 
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
-
-
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
