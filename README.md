@@ -1,9 +1,9 @@
 # Portfolio-Website
 
-## Ui Desing
+# UI Design
 
-- [ ] Create Website desing using Figma
-- [ ] Import all the assets required for the desing
+- [ ] Create Website design using Figma
+- [ ] Import all the assets required for the design
 - [ ] Export or save the designs
 
 
